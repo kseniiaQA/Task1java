@@ -3,11 +3,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int ticketPrice = 2500;
+        int ticketPrice = 30;
         int forOneMile = 20;
-        int mileAmount = 300;
+
         int bonus;
-        bonus = ticketPrice + (forOneMile * mileAmount);
+        bonus = ticketPrice/forOneMile;
         System.out.println("Ваш бонус = " + bonus);
     }
 }
